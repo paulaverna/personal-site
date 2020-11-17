@@ -1,0 +1,181 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #556052;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4.25rem;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+
+h2 {
+    color: #556052;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size:2.10rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+h3 {
+    color: #af6b58;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.35rem;
+}
+
+.top-container {
+    background-color: #f2efea;
+    padding: 200px 0 300px 0;
+    position: relative;
+    
+}
+
+.top-cloud{
+    display: inline-block;
+    position: absolute;
+    right: 300px;
+    top: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+
+.middle-container {
+    text-transform: lowercase;
+}
+
+.profile {
+    background-color: #556052;
+    padding: 200px 0;
+}
+
+.paula-img {
+    width:20%;
+    margin-bottom: 50px
+}
+
+.middle-container .profile h2 {
+    color: #f2efea;
+}
+
+.middle-container .profile p {
+    color: #f2efea;
+}
+
+.skills {
+    background-color: #f2efea;
+    padding: 100px 0;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    width: 50%;
+}
+
+.ux-image {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.dev-image {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.contact-me {
+    background-color:#cbbcb1;
+    padding:100px 0 100px 0;
+}
+
+.middle-container .contact-me h2 {
+    color: #af6b58;
+}
+
+.middle-container .contact-me h3{
+    color: #556052;
+    margin: 5px 0 100px 0;
+}
+
+/*
+.middle-container .contact-me .btn {
+    color: #f2efea;
+    display: inline-block;
+    font-size: 1.15rem;
+    padding-top: 50px;
+    text-decoration: none;
+}
+*/
+
+.form-container {
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+.input-field {
+    display: block;
+    width: 330px;
+    height: 50px;
+    border: none;
+    color: black;
+    position: relative;
+    right: 0%;
+    margin-bottom: 10px;
+    padding: 0 0 0 10px;
+    border-radius: 20px;
+}
+
+.input-textarea {
+    display: block;
+    border: none;
+    color: black;
+    font-family: arial;
+    position: relative;
+    right: 0%;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+  .form-input-label {
+    font-size: small;
+    display: block;
+    text-align: left;
+    padding: 0 0 5px 10px;
+  }
+
+.input-button { 
+    background-color: #af6b58;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+    height: 40px;
+    padding: 0 20px;
+    float: right;
+}
+
+.bottom-container {
+    height: px;
+    padding: 100px 0 20px 0;
+    background-color: #f2efea;
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.footer-icon {
+    width: 25px;
+    margin: 0 20px;
+}
